@@ -1,6 +1,6 @@
 {
   "name": "@brown/boot4react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Make Bootstrap 4 easier to use with react",
   "license": "UNLICENSED",
   "private": true,
@@ -10,7 +10,7 @@
       "email": "christopher_keith@brown.edu"
     }
   ],
-  "main": "dist/boot4react.js",
+  "main": "index.js",
   "dependencies": {
     "prop-types": ">=15.6.1",
     "react": ">=16.0.0"
