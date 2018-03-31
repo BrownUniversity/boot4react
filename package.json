@@ -1,6 +1,6 @@
 {
   "name": "@brown/boot4react",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Make Bootstrap 4 easier to use with react",
   "license": "UNLICENSED",
   "private": true,

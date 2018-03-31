@@ -16,6 +16,8 @@ import TextInputGroup from './TextInputGroup'
 import ThreeRelation from './ThreeRelation'
 import ValidationErrors from './ValidationErrors'
 
+export default Form
+
 export {
   Button,
   ButtonGroup,
