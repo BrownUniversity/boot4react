@@ -4,7 +4,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'boot4react.js'
+    filename: 'boot4react.js',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
