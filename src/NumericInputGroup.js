@@ -31,7 +31,7 @@ class NumericInputGroup extends Component {
           id={this.props.id}
           name={this.props.name}
           value={this.props.value}
-          onChange={this.props.onChange}
+          onChange={this.props.handleChange}
           className={className}
           style={this.props.style}
           precision={this.props.precision}
