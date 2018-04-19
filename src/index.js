@@ -6,6 +6,7 @@ import Form from './Form'
 import FormGroup from './FormGroup'
 import InputGroup from './InputGroup'
 import Label from './Label'
+import NumericInputGroup from './NumericInputGroup';
 import Select from './Select'
 import SelectGroup from './SelectGroup'
 import SelectMany from './SelectMany'
@@ -27,6 +28,7 @@ export {
   FormGroup,
   Label,
   InputGroup,
+  NumericInputGroup,
   SelectMany,
   Text,
   TextArea,
