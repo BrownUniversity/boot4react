@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const ValidationErrors = props => {
   if (props.errors.length > 0) {
     return (
-      <div className="invalid-feedback">
+      <div className="invalid-feedback" style={{ display: 'block' }}>
         {props.errors.join(' | ')}
       </div>
     )
