@@ -8,6 +8,7 @@ const Select = props => {
   }
   return (
     <select
+      id={props.id}
       className={classes.join(' ')}
       value={props.value}
       onChange={props.onChange}
@@ -23,6 +24,10 @@ const Select = props => {
 }
 
 Select.propTypes = {
+  id: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  )],
   name: PropTypes.string,
   value: PropTypes.oneOfType([
     PropTypes.bool,
@@ -48,7 +53,8 @@ Select.propTypes = {
 }
 
 Select.defaultProps = {
-  extraClasses: []
+  extraClasses: [],
+  id: null
 }
 
 export default Select
