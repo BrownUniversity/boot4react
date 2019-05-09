@@ -1,6 +1,6 @@
 version: '2'
 services:
   web:
-    image: dtr.cis-qas.brown.edu:8443/cis/php56:latest
+    image: dtr.cis-qas.brown.edu/cis/php56:latest
     volumes:
       - ./:/var/code
