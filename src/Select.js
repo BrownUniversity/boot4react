@@ -18,7 +18,7 @@ const Select = props => {
         ? <option key={-1} value=''>{props.blankOption}</option>
         : null
       }
-      {props.options.map(option => <option key={option.key} value={option.key}>{option.value}</option>)}
+      {props.options.map(option => <option key={option.id} value={option.id}>{option.value}</option>)}
     </select>
   )
 }
@@ -37,7 +37,7 @@ Select.propTypes = {
   onChange: PropTypes.func.isRequired,
   options: PropTypes.arrayOf(
     PropTypes.shape({
-      key: PropTypes.oneOfType([
+      id: PropTypes.oneOfType([
         PropTypes.bool,
         PropTypes.string,
         PropTypes.number
